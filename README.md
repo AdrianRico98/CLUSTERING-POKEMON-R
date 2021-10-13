@@ -146,7 +146,8 @@ corrplot(matriz_correlaciones, #forma mas visual de ver las correlaciones.
           tl.srt = 45) 
 ```
 
-[correlaciones](https://raw.githubusercontent.com/AdrianRico98/CLUSTERING-POKEMON-R/master/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![correlaciones](https://raw.githubusercontent.com/AdrianRico98/CLUSTERING-POKEMON-R/master/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+
 Podemos ver:
 
 -   1.  Correlaciones significativas entre las variables, salvo entre
