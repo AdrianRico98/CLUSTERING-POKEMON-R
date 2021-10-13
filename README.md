@@ -185,7 +185,7 @@ data.frame(factor = c(1:6), puntuacion_eigen = eigen(matriz_correlaciones)$value
   ggtitle("Puntuaciones eigen para los posibles seis factores")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![puntuaciones eigen](https://raw.githubusercontent.com/AdrianRico98/CLUSTERING-POKEMON-R/master/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 Teniendo en cuenta el criterio expuesto, extraeremos dos factores que
 resuman las seis variables.
@@ -334,7 +334,7 @@ de clusters elegido por más de 20 métodos o índices.
 fviz_nbclust(pokemon_set[2:3], kmeans, method = "wss") #método de "codo".Trabajamos solo con la columna 2 y 3, es decir, las columnas donde estan los factores.
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![método de codo](https://raw.githubusercontent.com/AdrianRico98/CLUSTERING-POKEMON-R/master/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
 ``` r
 #numclust <- NbClust(data = pokemon_set[2:3], distance = "euclidean", method = "kmeans")
@@ -357,7 +357,7 @@ fviz_nbclust(numclust)
     ## =========================
     ## * According to the majority rule, the best number of clusters is  3 .
 
-![](README_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![indices](https://raw.githubusercontent.com/AdrianRico98/CLUSTERING-POKEMON-R/master/figure-gfm/unnamed-chunk-10-3.png)<!-- -->.png
 
 Tanto si nos guiamos por el método clásico como si lo haemos por el
 resumen de los más de 25 métodos que nos proporciona la función,
@@ -397,7 +397,7 @@ cluster$centers
 fviz_cluster(cluster, data = pokemon_set[2:3], ellipse.type = "euclid",star.plot = TRUE) 
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+![clusters](https://raw.githubusercontent.com/AdrianRico98/CLUSTERING-POKEMON-R/master/figure-gfm/unnamed-chunk-12-1.png)<!-- -->.png
 
 La interpretación que les doy es la siguiente:
 
@@ -516,4 +516,5 @@ p2 <- pokemon_set %>%
 grid.arrange(p1,p2, nrow = 1)
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+
+![bonus](https://raw.githubusercontent.com/AdrianRico98/CLUSTERING-POKEMON-R/master/figure-gfm/unnamed-chunk-16-1.png)<!-- -->.png
