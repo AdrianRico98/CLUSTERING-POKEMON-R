@@ -146,7 +146,7 @@ corrplot(matriz_correlaciones, #forma mas visual de ver las correlaciones.
           tl.srt = 45) 
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+[](C:\Users\adria\Desktop\PROYECTOS\pokimon\figure-gfm)<!-- -->
 
 Podemos ver:
 
