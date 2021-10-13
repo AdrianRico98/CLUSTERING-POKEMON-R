@@ -357,7 +357,7 @@ fviz_nbclust(numclust)
     ## =========================
     ## * According to the majority rule, the best number of clusters is  3 .
 
-![indices](https://raw.githubusercontent.com/AdrianRico98/CLUSTERING-POKEMON-R/master/figure-gfm/unnamed-chunk-10-3.png)<!-- -->.png
+![indices](https://raw.githubusercontent.com/AdrianRico98/CLUSTERING-POKEMON-R/master/figure-gfm/unnamed-chunk-10-3.png)<!-- -->
 
 Tanto si nos guiamos por el método clásico como si lo haemos por el
 resumen de los más de 25 métodos que nos proporciona la función,
@@ -397,7 +397,7 @@ cluster$centers
 fviz_cluster(cluster, data = pokemon_set[2:3], ellipse.type = "euclid",star.plot = TRUE) 
 ```
 
-![clusters](https://raw.githubusercontent.com/AdrianRico98/CLUSTERING-POKEMON-R/master/figure-gfm/unnamed-chunk-12-1.png)<!-- -->.png
+![clusters](https://raw.githubusercontent.com/AdrianRico98/CLUSTERING-POKEMON-R/master/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
 
 La interpretación que les doy es la siguiente:
 
@@ -517,4 +517,4 @@ grid.arrange(p1,p2, nrow = 1)
 ```
 
 
-![bonus](https://raw.githubusercontent.com/AdrianRico98/CLUSTERING-POKEMON-R/master/figure-gfm/unnamed-chunk-16-1.png)<!-- -->.png
+![bonus](https://raw.githubusercontent.com/AdrianRico98/CLUSTERING-POKEMON-R/master/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
